@@ -31,6 +31,8 @@
 #include <algorithm>
 #include <limits>
 
+#include <cstdint>
+
 int Utils::Number::clampingAdd(const int num1, const int num2)
 {
     static_assert(sizeof(int64_t) > sizeof(int));
